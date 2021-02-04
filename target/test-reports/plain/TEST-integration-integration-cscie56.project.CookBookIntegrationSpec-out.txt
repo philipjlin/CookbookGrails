@@ -1,0 +1,4 @@
+--Output from test recipe added to cookbook--
+--Output from test recipe removed from cookbook--
+--Output from test list returned correctly from a cookbook instance--
+--Output from test list of recipes in a user cookbook exists--

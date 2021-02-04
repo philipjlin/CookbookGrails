@@ -1,0 +1,19 @@
+Testsuite: cookbook.RecipeIntegrationSpec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec
+------------- Standard Output ---------------
+--Output from test comment added to recipe--
+--Output from test recipe created--
+--Output from test list of all recipes from user returned--
+--Output from test created recipe exists--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test comment added to recipe--
+--Output from test recipe created--
+--Output from test list of all recipes from user returned--
+--Output from test created recipe exists--
+------------- ---------------- ---------------
+
+Testcase: test comment added to recipe took 0.012 sec
+Testcase: test recipe created took 0.01 sec
+Testcase: test list of all recipes from user returned took 0.022 sec
+Testcase: test created recipe exists took 0.037 sec

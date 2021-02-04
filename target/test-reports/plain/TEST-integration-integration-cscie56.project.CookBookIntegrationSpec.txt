@@ -1,0 +1,19 @@
+Testsuite: cookbook.CookBookIntegrationSpec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.484 sec
+------------- Standard Output ---------------
+--Output from test recipe added to cookbook--
+--Output from test recipe removed from cookbook--
+--Output from test list returned correctly from a cookbook instance--
+--Output from test list of recipes in a user cookbook exists--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test recipe added to cookbook--
+--Output from test recipe removed from cookbook--
+--Output from test list returned correctly from a cookbook instance--
+--Output from test list of recipes in a user cookbook exists--
+------------- ---------------- ---------------
+
+Testcase: test recipe added to cookbook took 0.33 sec
+Testcase: test recipe removed from cookbook took 0.016 sec
+Testcase: test list returned correctly from a cookbook instance took 0.09 sec
+Testcase: test list of recipes in a user cookbook exists took 0.018 sec

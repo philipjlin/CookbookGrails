@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Philips-MacBook-Air.local" name="cookbook.CookBookIntegrationSpec" skipped="0" tests="4" time="0.484" timestamp="2016-05-05T10:14:01">
+  <properties />
+  <testcase classname="cookbook.CookBookIntegrationSpec" name="test recipe added to cookbook" time="0.33" />
+  <testcase classname="cookbook.CookBookIntegrationSpec" name="test recipe removed from cookbook" time="0.016" />
+  <testcase classname="cookbook.CookBookIntegrationSpec" name="test list returned correctly from a cookbook instance" time="0.09" />
+  <testcase classname="cookbook.CookBookIntegrationSpec" name="test list of recipes in a user cookbook exists" time="0.018" />
+  <system-out><![CDATA[--Output from test recipe added to cookbook--
+--Output from test recipe removed from cookbook--
+--Output from test list returned correctly from a cookbook instance--
+--Output from test list of recipes in a user cookbook exists--
+]]></system-out>
+  <system-err><![CDATA[--Output from test recipe added to cookbook--
+--Output from test recipe removed from cookbook--
+--Output from test list returned correctly from a cookbook instance--
+--Output from test list of recipes in a user cookbook exists--
+]]></system-err>
+</testsuite>
