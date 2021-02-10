@@ -2,7 +2,7 @@
 
 
 ## Repository
-<https://github.com/philipjlin/Cookbook_Grails>
+<https://github.com/philipjlin/CookbookGrails>
 
 
 ## Description
