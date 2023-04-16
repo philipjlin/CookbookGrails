@@ -9,7 +9,7 @@
 Version of CookBook (https://github.com/philipjlin/Cookbook) developed using Grails Framework.
 
 ## Technologies
-Grails
+Groovy, Grails, Spring
 
 
 ## High Level Components
@@ -59,11 +59,11 @@ Grails
          - index (of recipe lists)
          - lists (breakfast, lunch, dinner, dessert)
 
+<br>
 
-Recipe
-
-    - index (of all recipes)
-    - allrecipes (sorted)
-    - create
-    - edit
-    - show (w/ add/delete from cookbook)
+      Recipe
+          - index (of all recipes)
+          - allrecipes (sorted)
+          - create
+          - edit
+          - show (w/ add/delete from cookbook)
