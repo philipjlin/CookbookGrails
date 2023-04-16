@@ -21,7 +21,8 @@ There will also be a blog component to the site, which allows users a way to dis
 
 ## Technologies
 Project was developed in Groovy using the Grails framework.
-Spring security framework used for authentication and authorization.
+
+Spring security framework used for authentication/authorization operations.
 
 
 ## High Level Components
