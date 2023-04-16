@@ -8,17 +8,20 @@
 ## Description
 Version of CookBook (https://github.com/philipjlin/Cookbook) developed using Grails Framework.
 
+## Technologies
+Grails
+
 
 ## High Level Components
-* Database with information about recipes
-* Table of user accounts with login and password info, with supporting operations
-* Table of recipes for each user, with supporting operations
-* User authentication service
-* CRUD operations controller for users
-* CRUD operations controller for recipes
-* Blog page for users
-* Administrator mode, with additional options
-* Detailed search bar for recipes in the database based on tags or keywords
+    * Database with information about recipes
+    * Table of user accounts with login and password info, with supporting operations
+    * Table of recipes for each user, with supporting operations
+    * User authentication service
+    * CRUD operations controller for users
+    * CRUD operations controller for recipes
+    * Blog page for users
+    * Administrator mode, with additional options
+    * Detailed search bar for recipes in the database based on tags or keywords
 
 
 ## Class Overview
