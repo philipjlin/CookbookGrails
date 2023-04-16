@@ -25,7 +25,6 @@ Groovy, Grails, Spring
 
 
 ## Class Overview
-
    Domain Objects
       - Comment - represents a comment on a recipe.
       - CookBook - represents a unique-to-each-user cookbook, which contains a list of recipes chosen by the user.
@@ -54,7 +53,6 @@ Groovy, Grails, Spring
 
 
 ## Views
-
    CookBook
       - blog
       - index (of recipe lists)
