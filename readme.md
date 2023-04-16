@@ -24,12 +24,13 @@ Version of CookBook (https://github.com/philipjlin/Cookbook) developed using Gra
 ## Class Overview
 Domain Objects
 
-    - Comment - represents a comment on a recipe. <br>
-    - CookBook - represents a unique-to-each-user cookbook, which contains a list of recipes chosen by the user. <br>
-    - Recipe - represents a recipe with associated information. <br>
-    - Role - defines permissions users have. <br>
-    - User - represents a registered user on the site with at least 1 role. <br>
-    - UserRole - class that keeps track of user-role pairings. <br>
+    - Comment - represents a comment on a recipe.
+    - CookBook - represents a unique-to-each-user cookbook, which contains a list of recipes chosen by the user.
+    - Recipe - represents a recipe with associated information.
+    - Role - defines permissions users have.
+    - User - represents a registered user on the site with at least 1 role.
+    - UserRole - class that keeps track of user-role pairings.
+
 
 Controllers
 
@@ -37,10 +38,12 @@ Controllers
     - RecipeController - used to render all views associated with recipes and the recipe CRUD methods. Also used to add comments to recipes. <br>
     - UserController - contains CRUD methods for users. <br>
 
+
 Services
 
     - CookBookService - contains the logic methods used in managing the cookbook, including statistics about the cookbook and methods for adding and removing recipes from the cookbook. <br>
     - RecipeService - contains methods that edit and update sections of recipes. <br>
+
 
 Taglibs
 
@@ -53,6 +56,7 @@ CookBook
     - blog
     - index (of recipe lists)
     - lists (breakfast, lunch, dinner, dessert)
+
 
 Recipe
 
