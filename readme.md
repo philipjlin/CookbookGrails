@@ -6,11 +6,22 @@
 
 
 ## Description
-Version of CookBook (https://github.com/philipjlin/Cookbook) developed using Grails Framework.
+Web application that serves as a digital recipe library for individuals who love to make food.
+
+The application will store recipes, uploaded by registered users, in a central, shared database. Anyone will be able to access all recipes on the site, and use a search engine to construct queries for specific recipes. Individual recipes with photos can be displayed in their own page with ingredients, instructions, cooking time, and other searchable tags/parameters.
+
+A user can create an account, and upon login will gain functionality to the cookbook feature of the site.
+
+Registered users, when logged in, will be able to add recipes that they like to their own personal cookbook. The cookbook will be able aggregate and present these recipes by parameters such as course, cuisine type, or total cook time.
+
+Registered users will also have a means means to upload recipes into the shared organized database using a template provided by the site.
+
+There will also be a blog component to the site, which allows users a way to display all their recipes in a chronological style.
 
 
 ## Technologies
-Groovy, Grails, Spring
+Project was developed in Groovy using the Grails framework.
+Spring security framework used for authentication and authorization.
 
 
 ## High Level Components
