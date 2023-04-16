@@ -25,40 +25,39 @@ Grails
 
 
 ## Class Overview
-Domain Objects
 
-    - Comment - represents a comment on a recipe.
-    - CookBook - represents a unique-to-each-user cookbook, which contains a list of recipes chosen by the user.
-    - Recipe - represents a recipe with associated information.
-    - Role - defines permissions users have.
-    - User - represents a registered user on the site with at least 1 role.
-    - UserRole - class that keeps track of user-role pairings.
+      Domain Objects
+         - Comment - represents a comment on a recipe.
+         - CookBook - represents a unique-to-each-user cookbook, which contains a list of recipes chosen by the user.
+         - Recipe - represents a recipe with associated information.
+         - Role - defines permissions users have.
+         - User - represents a registered user on the site with at least 1 role.
+         - UserRole - class that keeps track of user-role pairings.
 
+<br>
 
-Controllers
+      Controllers
+         - CookBookController - used to render all views associated with the user's cookbook.
+         - RecipeController - used to render all views associated with recipes and the recipe CRUD methods.
+         - UserController - contains CRUD methods for users.
 
-    - CookBookController - used to render all views associated with the user's cookbook, including different lists of recipes by category and the blog. <br>
-    - RecipeController - used to render all views associated with recipes and the recipe CRUD methods. Also used to add comments to recipes. <br>
-    - UserController - contains CRUD methods for users. <br>
+<br>
 
+      Services
+         - CookBookService - contains the logic methods used in managing the cookbook (add/remove), and stats.
+         - RecipeService - contains methods that edit and update sections of recipes.
 
-Services
+<br>
 
-    - CookBookService - contains the logic methods used in managing the cookbook, including statistics about the cookbook and methods for adding and removing recipes from the cookbook. <br>
-    - RecipeService - contains methods that edit and update sections of recipes. <br>
-
-
-Taglibs
-
-    - CookBookTagLib - used to help render views of the different lists recipes by category, by sorting the recipes in a users cookbook by those categories.
+      Taglibs
+         - CookBookTagLib - used to help render views of the different lists recipes by category, by sorting the recipes in a users cookbook by those categories.
 
 
 ## Views
-CookBook
-
-    - blog
-    - index (of recipe lists)
-    - lists (breakfast, lunch, dinner, dessert)
+      CookBook
+         - blog
+         - index (of recipe lists)
+         - lists (breakfast, lunch, dinner, dessert)
 
 
 Recipe
