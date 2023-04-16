@@ -44,14 +44,14 @@ Taglibs <br>
 
 
 ## Views
-CookBook <br>
-    - blog <br>
-    - index (of recipe lists) <br>
-    - lists (breakfast, lunch, dinner, dessert) <br>
+CookBook
+    - blog
+    - index (of recipe lists)
+    - lists (breakfast, lunch, dinner, dessert)
 
-Recipe <br>
-    - index (of all recipes) <br>
-    - allrecipes (sorted) <br>
-    - create <br>
-    - edit <br>
-    - show (w/ add/delete from cookbook) <br>
+Recipe
+    - index (of all recipes)
+    - allrecipes (sorted)
+    - create
+    - edit
+    - show (w/ add/delete from cookbook)
